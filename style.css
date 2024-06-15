@@ -20,7 +20,7 @@
 .heading{
     display: flex;
     justify-content: center;
-    margin-bottom: 135px;
+
 }
 
 .heading__box{
@@ -458,7 +458,7 @@ PROJECTS
     box-shadow: 0 10px 30px 0px;
     overflow: hidden;
     width: 750px;
-    height: 350px;
+    height: 400px;
     /* width: 450px; 
     height: 250px;  */
     display: flex;
@@ -476,12 +476,14 @@ PROJECTS
 }
 
 .project__description--title{
-    font-size: 40px;
+    font-size: 32px;
 }
 
 .project__description--sub-title{
     margin: 8px 0px;
     color: #FF69B4;
+
+    
 }
 
 
@@ -619,7 +621,7 @@ MODAL
 }
 
 .modal__about{
-    background-color: #F5F1F1;
+    background-color: #F5B8D4;
     transform: translateX(-110%);
 }
 
