@@ -33,7 +33,27 @@
     height: 200px;
 }
 
+.iterations__img{
+    width:350px ;
 
+}
+
+.link__FinalDesign{
+    font-size: 22px;
+    text-decoration: underline;
+    padding-right: 10px;
+    color: #332D30;
+}
+
+
+
+.finalDesign1__img{
+    width: 600px;
+}
+
+.finalDesign2__img{
+    width: 150px;
+}
 
 .bp__heading{
     display: flex;
