@@ -910,6 +910,8 @@ MEDIA
 
 @media(max-width: 480px){
 
+   
+
     #personal-logo{
         width: 180px;
         height: 100px;
@@ -984,24 +986,128 @@ MEDIA
     }
 
     #mybtn{
-        width: 50px;
-        height: 50px;
-        /* bottom: 80px; */
-        left: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: none;
     }
 
     .mail__btn{
         width: 50px;
         height: 50px;
         right: 20px;
+       top: 30px;
+       border: none;
+       background-color: transparent;
+    }
+
+    .heading__Title{
+        width: 200px;
+        /* margin-left: 50px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .row{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .casestudy{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .casestudy__List--Item{
         width: 280px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
+
+    .capital__Thumbnail{
+        width: 200px;
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    .competitive__img{
+        width: 200px;
+        height: 100px;
+    }
+
+    .competitive{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .finalDesign1__img{
+        width: 200px;
+    }
+
+    .finalDesign2__img{
+        width: 200px;
+    }
+
+    .iterations__img{
+        width: 250px;
+    }
+
+    .capital__Title{
+        display: flex;
+        /* margin-left: -25px; */
+    }
+    
+    #bpBtn{
+        display: none;
+    }
+
+    .container{
+        padding-top: 10px;
+    }
+
+    .section__title{
+     font-size: 32px;
+     margin-bottom: 20px;
+    }
+
+    .header__img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .heading__box{
+        width: 300px;
+        height: 200px;
+    }
+
+    .interview__img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .competitive__website{
+        width: 200px;
+        padding: none;
+        /* margin-left: 50px; */
+    }
+
+    .treejack__img{
+        width: 250px;
+    }
+
+    .biolens__img{
+        width: 250px;
+    }
+
 
 }
 
