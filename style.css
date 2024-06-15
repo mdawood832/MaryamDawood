@@ -27,7 +27,7 @@ h4{
 }
 
 .design__System{
-    width: 650px;
+    width: 550px;
 }
 
 .design__System--wrapper{
@@ -1123,6 +1123,7 @@ MEDIA
     }
 
     .design__System--wrapper{
+        width: 250px;
         display: flex;
         justify-content: center;
         align-items: center;
