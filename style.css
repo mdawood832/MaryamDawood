@@ -9,6 +9,15 @@ h4{
  
 }
 
+.interview__img{
+    width: 450px;
+     height: 250px;
+}
+
+.interview__Description{
+    width: 450px;
+}
+
 
 .logo__Hover:hover{
    color: #FF69B4;
@@ -121,6 +130,7 @@ h4{
     height: 250px;
     display: flex;
     justify-content: center;
+    box-shadow: 0 10px 30px 0px;
     
 
 }
@@ -1067,7 +1077,15 @@ MEDIA
     }
     
     #bpBtn{
-        display: none;
+        /* display: none; */
+        width: 40px;
+        height: 40px;
+        left: 10px;
+        bottom: 68px;
+    }
+
+    .fa-arrow-up{
+        font-size: 24px;
     }
 
     .container{
@@ -1080,32 +1098,52 @@ MEDIA
     }
 
     .header__img{
-        width: 300px;
-        height: 200px;
+        width: 320px;
+        height: 120px;
     }
 
     .heading__box{
-        width: 300px;
-        height: 200px;
+        width: 320px;
+        height: 120px;
+        box-shadow: 0 5px 15px 0px;
+
+        
     }
 
     .interview__img{
-        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
         height: 100px;
     }
 
-    .competitive__website{
+    .interview__Description{
         width: 200px;
+    }
+
+    .competitive__website{
+        /* width: 200px; */
         padding: none;
-        /* margin-left: 50px; */
+        display: flex;
+        justify-content: center;
+        align-content: center;
     }
 
     .treejack__img{
-        width: 250px;
+        width: 200px;
+        height: 100px;
+    }
+
+    .biolens{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .biolens__img{
-        width: 250px;
+        width: 150px;
+        height: 100px;
     }
 
 
