@@ -9,6 +9,14 @@ h4{
  
 }
 
+.treejack__img{
+    width: 450px;
+}
+
+.biolens__img{
+    width: 800px;
+}
+
 .interview__img{
     width: 450px;
      height: 250px;
@@ -18,6 +26,15 @@ h4{
     width: 450px;
 }
 
+.design__System{
+    width: 650px;
+}
+
+.design__System--wrapper{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
 
 .logo__Hover:hover{
    color: #FF69B4;
@@ -48,6 +65,7 @@ h4{
 
 .casestudy__List--Item{
     padding-bottom: 48px;
+    /* text-align: center; */
 }
 
 
@@ -827,61 +845,9 @@ input:focus, textarea:focus{
 }
 
 
-/* 
-
-SHAPES
-
-*/
-
-.shape{
-    position: fixed;
-}
 
 
-.shape--0{
-    top: 30vh;
-    left: 10vw;
-}
 
-.shape--1{
-    top: 30vh;
-    left: 50vw;
-}
-
-.shape--2{
-    top: 30vh;
-    left: 80vw;
-}
-
-.shape--3{
-    top: 60vh;
-    left: 5vw;
-}
-
-.shape--4{
-    top: 60vh;
-    left: 50vw;
-}
-
-.shape--5{
-    top: 60vh;
-    left: 80vw;
-}
-
-.shape--6{
-    top: 85vh;
-    left: 20vw;
-}
-
-.shape--7{
-    top: 85vh;
-    left: 50vw;
-}
-
-.shape--8{
-    top: 85vh;
-    left: 80vw;
-}
 
 /* 
 
@@ -1023,6 +989,8 @@ MEDIA
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        padding: 0px;
+        text-align: center;
     }
 
     .casestudy{
@@ -1106,8 +1074,6 @@ MEDIA
         width: 320px;
         height: 120px;
         box-shadow: 0 5px 15px 0px;
-
-        
     }
 
     .interview__img{
@@ -1135,6 +1101,10 @@ MEDIA
         height: 100px;
     }
 
+    .treejack__img--wrapper{
+        display: flex; justify-content: center; align-items: center; padding-top: 20px;
+    }
+
     .biolens{
         display: flex;
         justify-content: center;
@@ -1142,10 +1112,37 @@ MEDIA
     }
 
     .biolens__img{
-        width: 150px;
+        width: 250px;
         height: 100px;
+        /* display: none; */
     }
 
+    .design__System{
+        width: 250px;
+        height: 400px;
+    }
+
+    .design__System--wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .caption__Header{
+        text-align: center;
+    }
+
+    .heading__box{
+        display: none;
+    }
+
+    .bp__projects{
+        display: none;
+    }
+
+    .bp__row{
+        padding: none;
+    }
 
 }
 
