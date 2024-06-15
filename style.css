@@ -1005,6 +1005,7 @@ MEDIA
         display: flex;
         justify-content: center;
         flex-direction: column;
+        text-align: center;
     }
 
     .capital__Thumbnail{
@@ -1144,6 +1145,7 @@ MEDIA
     .bp__row{
         padding: none;
     }
+
 
 }
 
