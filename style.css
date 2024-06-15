@@ -9,6 +9,14 @@ h4{
  
 }
 
+
+.logo__Hover:hover{
+   color: #FF69B4;
+}
+
+
+
+
 *{
     margin: 0;
     padding: 0;
