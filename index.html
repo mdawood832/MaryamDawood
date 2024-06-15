@@ -1,0 +1,473 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maryam Dawood</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e37ba44ec3.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <section id="landing-page" class="grad">
+        <nav>
+            <div class="personal-logo__wrapper">
+            <a href="#landing-page">
+            <figure>
+                <h2 class="logo">MD</h2>
+               <!-- <img id="personal-logo" src="assets/maryamlogo-removebg-preview.png" alt="">  -->
+            </figure>
+            </a>
+            </div>
+
+            <ul class="nav__link--list">
+
+                <li class="nav__link">
+                    <a href="#projects" class="nav__link--anchor link__hover-effect link__hover-effect--black">Design</a>
+                </li>
+
+                <li class="nav__link">
+                    <a href="#Development" class="nav__link--anchor link__hover-effect link__hover-effect--black">Development</a>
+                </li>
+
+                <li class="nav__link">
+                    <a href="#Diversions" class="nav__link--anchor link__hover-effect link__hover-effect--black">Diversions</a>
+                </li>
+
+                <li class="nav__link" onclick="toggleModal()">
+                    <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black">Contact</a>
+                </li>
+
+                <!-- <li class="nav__link clickContrast" onclick="toggleContrast()">
+                    <a href="#" class="nav__link--anchor"><i class="fas fa-adjust"></i></a>
+                </li> -->
+            </ul>
+        </nav>
+
+        <header class="header">
+            <div class="header__container">
+                <h1 class="title">Hi,</h1>
+                <h1 class="title__second">I'm Maryam.</h1>
+                <p class="header__para">
+                    I am a UI/UX Designer and Developer. 
+                    <br>
+                    Here's a bit more about me. 
+                </p>
+
+                <div class="social__list">
+                    <a href="https://www.linkedin.com/in/maryam-dawood/" target="_blank" class="social__link clickContrast" title="LinkedIn" >
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="https://github.com/mdawood832" target="_blank" class="social__link clickContrast" title="Github" >
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="assets/MaryamDResume2024.pdf" target="_blank" class="social__link clickContrast" title="Resume" >
+                        <i class="fas fa-file-pdf"></i>
+                    </a>
+                </div>
+
+            </div>
+        </header>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top" >
+            <i class="fa-solid fa-arrow-up"></i>
+        </button>
+
+
+        <button class="mail__btn clickContrast" onclick="toggleModal()" title="Contact" >
+            <i class="fas fa-envelope"></i>
+        </button>
+
+        <!-- <a href="#projects" class="scroll">
+            <div class="scroll__icon click"></div>
+        </a> -->
+
+        <div class="modal">
+            <div class="modal__half modal__about">
+                <h1 class="modal__title">Here is a bit more about me...</h1>
+                <p class="modal__para">
+                    I am a 22 year old UI/UX designer with a degree in 
+                    computer science. I have always wanted to combine my love for 
+                    science and techonology with my creative artistic talent. 
+                    <br>
+                    <br>
+
+                </p>
+            </div>
+
+
+            <div class="modal__half modal__contact">
+                <h1 class="modal__title modal__title--contact">
+                    I'd love to hear from you!
+                </h1>
+
+                <a href="mailto:mdawood832@gmail.com"  id="contact__submit" class="form__submit" >
+                    Send Me A Message 
+                </a>
+            </div>
+
+            <i class="fas fa-times modal__exit clickContrast" onclick="toggleModal()"></i>
+        </div>
+
+    </section>
+    <section id="projects" class="grad">
+        <div class="container">
+            <div class="row">
+                <h1 class="section__title">
+                    Design
+                </h1>
+
+                <ul class="project__list">
+
+                    <!-- Internship -->
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/Screenshot 2024-06-14 at 1.27.31 PM.png" class="project__img" alt="">
+                            <div class="project__wrapper--bg"></div>
+                            <div class="project__description">
+                                <h3 class="project__description--title">
+                                    bp
+                                </h3>
+                                <h4 class="project__description--sub-title">
+                                    Optimal Workshop, Figma, Visual Studio Code, Mural
+                                </h4>
+                                <p class="project__description--para">
+                                    UI/UX Design Internship Summer 2023
+                                </p>
+
+                                <div class="project__description--links">
+                                    <a href="bp.html" target="_blank" class="project__description--link">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Furni -->
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/Hero (1).png" class="project__img" alt="">
+                            <div class="project__wrapper--bg"></div>
+                            <div class="project__description">
+                                <h3 class="project__description--title">
+                                    Furni
+                                </h3>
+                                <h4 class="project__description--sub-title">
+                                    Figma
+                                </h4>
+                                <p class="project__description--para">
+                                    User Centered Web Interactive Prototyping
+                                </p>
+
+                                <div class="project__description--links">
+                                    <a href="https://happy-hound-react-app.herokuapp.com/" target="_blank" class="project__description--link">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    
+
+                    <!-- CAPITAL -->
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/Frame 20.png" class="project__img" alt="">
+                            <div class="project__wrapper--bg"></div>
+                            <div class="project__description">
+                                <h3 class="project__description--title">
+                                    CAPITAL
+                                </h3>
+                                <h4 class="project__description--sub-title">
+                                    Figma
+                                </h4>
+                                <p class="project__description--para">
+                                    Web and Mobile Layout/Visual Design Client Project 
+                                </p>
+                                    
+                                <div class="project__description--links">
+                                    <a href="https://mdawood832.github.io/MatchBox/" target="_blank" class="project__description--link">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="Development" class="grad">
+        <div class="container">
+            <div class="row">
+                <h1 class="section__title">
+                    Development
+                </h1>
+
+                <ul class="project__list">
+
+                    <!-- CalenDoc -->
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/Screenshot 2024-06-14 at 1.20.03 PM.png" class="project__img" alt="">
+                            <div class="project__wrapper--bg"></div>
+                            <div class="project__description">
+                                <h3 class="project__description--title">
+                                    CalenDoc
+                                </h3>
+                                <h4 class="project__description--sub-title">
+                                    C++, Git, Github
+                                </h4>
+                                <p class="project__description--para">
+                                    Streamlining Your Healthcare Journey with Seamless Appointment Scheduling. 
+                                    Software Engineering Team Capstone Project
+                                </p>
+
+                                <div class="project__description--links">
+                                    <a href="https://github.com/mdawood832/CalenDoc" target="_blank" class="project__description--link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                
+                    <!-- RESEARCH -->
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/Screen Shot 2022-10-25 at 11.00.23 AM.png" class="project__img" alt="">
+                            <div class="project__wrapper--bg"></div>
+                            <div class="project__description">
+                                <h3 class="project__description--title">
+                                    3 Day Research Workshop at Carnegie Mellon University
+                                </h3>
+                                <h4 class="project__description--sub-title">
+                                    Python, Google Collaboratory, Mural 
+                                </h4>
+                                <p class="project__description--para">
+                                    Worked in a team to develop an automated web crawling tool that scrapes 
+                                    federal and state-level government websites to identify government regulations 
+                                    and guidelines concerning the in-house uses of data-driven technologies. 
+                                    We are particularly interested in how these agencies safeguard against 
+                                    bias and discriminatory impacts of AI/ML technologies.
+                                </p>
+
+                                <div class="project__description--links">
+                                    <a href="https://github.com/mdawood832/OurCS-2022" target="_blank" class="project__description--link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+
+                                    <a href="https://docs.google.com/presentation/d/1Pfyca-juJ4KVtgBZdGpDZGCxV5IbuUNQ/edit?usp=sharing&ouid=107605483287758919281&rtpof=true&sd=true" target="_blank" class="project__description--link">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- General Assembly -->
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/pexels-pixabay-270632.jpg" class="project__img" alt="">
+                            <div class="project__wrapper--bg"></div>
+                            <div class="project__description">
+                                <h3 class="project__description--title">
+                                    Software Engineering Bootcamp
+                                </h3>
+                                <h4 class="project__description--sub-title">
+                                    React, 
+                                    Node.js, Express.js, REST API, MongoDB, Django, Javascript, HTML, CSS, Git, and GitHub
+                                </h4>
+                                <p class="project__description--para">
+                                    Learned the fundamentals of full stack development through a 6 month, 500+ hour software engineering bootcamp with General Assembly. 
+                                   
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- ECCOMERCE -->
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/Screen Shot 2022-11-04 at 8.00.49 PM.png" class="project__img" alt="">
+                            <div class="project__wrapper--bg"></div>
+                            <div class="project__description">
+                                <h3 class="project__description--title">
+                                    Happy Hound E-commerce store 
+                                </h3>
+                                <h4 class="project__description--sub-title">
+                                    HTML, CSS, JavaScript, React, Express, Bootstrap, Figma, Mongo, Git, GitHub, Heroku, Semantic UI, Bootstrap
+                                </h4>
+                                <p class="project__description--para">
+                                    Worked in a team to create an E-commerce store for a luxury dog accessory brand named 
+                                    Happy Hound. Was responsible for the Front-End of the project, with a concentration on simplistic 
+                                    design. Created wireframes using Figma which are available on the Github Read.me. 
+                                </p>
+
+                                <div class="project__description--links">
+                                    <a href="https://github.com/mdawood832/Happy-Hound-Front-End" target="_blank" class="project__description--link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+
+                                    <a href="https://happy-hound-react-app.herokuapp.com/" target="_blank" class="project__description--link">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- MATCH BOX -->
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/Screen Shot 2022-09-13 at 1.09.06 PM.png" class="project__img" alt="">
+                            <div class="project__wrapper--bg"></div>
+                            <div class="project__description">
+                                <h3 class="project__description--title">
+                                    Match Box 
+                                </h3>
+                                <h4 class="project__description--sub-title">
+                                    HTML, CSS, JavaScript, Git, Github, Figma, object-orientated programming 
+                                </h4>
+                                <p class="project__description--para">
+                                    Match Box is a vibrant card matching game built utilizing object orientated programming.
+                                </p>
+
+                                <div class="project__description--links">
+                                    <a href="https://github.com/mdawood832/MatchBox" target="_blank" class="project__description--link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+
+                                    <a href="https://mdawood832.github.io/MatchBox/" target="_blank" class="project__description--link">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="Diversions" class="grad">
+        <div class="container">
+            <div class="row">
+                <h1 class="section__title">
+                    Diversions
+                </h1>
+
+                <ul class="project__list">
+
+                
+                    <!-- Study Abroad Program -->
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/Screenshot 2024-06-14 at 1.51.37 PM.png" class="project__img" alt="">
+                            <div class="project__wrapper--bg"></div>
+                            <div class="project__description">
+                                <h3 class="project__description--title">
+                                    Study Abroad Program January 2024 
+                                </h3>
+                                <h4 class="project__description--sub-title">
+                                    European Art, Culture, and Society 
+                                </h4>
+                                <p class="project__description--para">
+                                    Traveling through London, Paris, Nice, Milan, Venice, Florence, and Rome examining the major contributions of 
+                                    this country to the world of art and architecture, placing the artistic developments in the wider cultural, social 
+                                    and intellectual context of the periods and places in which they took place. 
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Harvard WECode -->
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/harvardwecode.jpg" class="project__img" alt="">
+                            <div class="project__wrapper--bg"></div>
+                            <div class="project__description">
+                                <h3 class="project__description--title">
+                                    Harvard WECode 2023
+                                </h3>
+                                <h4 class="project__description--sub-title">
+                                </h4>
+                                <p class="project__description--para">
+                                    Attended World's Largest Student Run Women in Tech Conference
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    
+
+                    <!-- Grace Hopper -->
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/grace hopper.png" class="project__img" alt="">
+                            <div class="project__wrapper--bg"></div>
+                            <div class="project__description">
+                                <h3 class="project__description--title">
+                                    Grace Hopper 2022 
+                                </h3>
+                                <h4 class="project__description--sub-title">
+                                    
+                                </h4>
+                                <p class="project__description--para">
+                                    Attended World's Largest Women in Tech Conference Virtually. 
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <div class="row footer__row">
+
+            <div class="footer__social--list">
+                <a href="https://github.com/mdawood832" class="footer__social--link
+                link__hover--effect
+                link__hover--effect--white"
+                target="_blank"> Github  
+                </a>
+                <a href="https://www.linkedin.com/in/maryam-dawood/" class="footer__social--link
+                link__hover--effect
+                link__hover--effect--white"
+                target="_blank"> LinkedIn  
+                </a>
+                <a href="mailto:mdawood832@gmail.com" class="footer__social--link
+                link__hover--effect
+                link__hover--effect--white"
+                target="_blank"> Email 
+                </a>
+                <a href="Maryam_D_Resume.pdf" class="footer__social--link
+                link__hover--effect
+                link__hover--effect--white"
+                target="_blank"> Resume 
+                </a>
+            </div>
+
+
+        </div>
+    <div class="footer__copyright">
+    </div>
+    </footer>
+
+
+</body>
+</html>
