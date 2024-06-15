@@ -9,6 +9,32 @@
 
 }
 
+
+.capital__Thumbnail{
+    width: 600px;
+}
+
+.competitive{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.competitive__website{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.competitive__img{
+    width:350px ;
+    height: 200px;
+}
+
+
+
 .bp__heading{
     display: flex;
     justify-content: center;
@@ -25,7 +51,7 @@
 
 .heading__box{
     position: relative;
-    border-radius: 10px;
+    border-radius: 25px;
     overflow: hidden;
     width: 1350px;
     height: 250px;
@@ -37,6 +63,10 @@
 
 .header__img{
     width: 100%;
+    border-radius:25px;
+    box-shadow: 0 10px 30px 0px;
+
+    
 }
 
 .name{
