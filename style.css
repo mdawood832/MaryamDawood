@@ -14,8 +14,18 @@ h4{
    color: #FF69B4;
 }
 
+.user__Persona{
+    width: 5500px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
 
-
+.persona__Wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 *{
     margin: 0;
