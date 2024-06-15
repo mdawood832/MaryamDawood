@@ -1,15 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
 
+body{
+    font-weight: lighter;
+}
+
+h4{
+    font-weight: lighter;
+ 
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Zen Antique', serif;
+    /* font-family: 'Zen Antique', serif; */
+    font-family: 'Hoefler Text', serif;
     
 
 }
 
+.casestudy__List--Item{
+    padding-bottom: 48px;
+}
 
+
+.heading__Title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
 
 .capital__Thumbnail{
     width: 600px;
@@ -41,9 +61,10 @@
 
 .link__FinalDesign{
     font-size: 22px;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    padding-top: 20px;
     padding-right: 10px;
-    color: #332D30;
+    color: #FF69B4;
 }
 
 
@@ -113,6 +134,7 @@
 .logo{
     font-size: 32px;
     color: #332D30;
+    font-family: 'Zen Antique' , 'san-serif';
 }
 
 html {
@@ -152,7 +174,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-width: 3px;
+    border-width: 2px;
   }
   
   #bpBtn:hover {
@@ -175,7 +197,7 @@ li{
     color: #332D30 ; 
     cursor: pointer; 
     padding: 15px; 
-    border-width: 3px;
+    border-width: 2px;
   }
   
   #myBtn:hover {
@@ -347,12 +369,14 @@ nav{
 
 .nav__link{
     margin: 0 12px;
+    font-family: 'Zen Antique' , 'san-serif';
 }
 
 .nav__link--anchor{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     color: #332D30;
+    font-family: 'Zen Antique' , 'san-serif';
 }
 
 li{
@@ -388,10 +412,11 @@ LANDING PAGE
 }
 
 .title{
-    font-size: 76px;
+    font-size: 64px;
     margin-bottom: 12px;
     text-align: center;
     line-height: 1;
+    font-weight: lighter;
 }
 
 .header__para{
@@ -400,15 +425,17 @@ LANDING PAGE
     line-height: 2;
     margin: 0 auto;
     color: #332D30;
+
     /* max-width: 450px; */
 }
 
 .title__second{
     color: #F5F1F1;
-    font-size: 76px;
+    font-size: 80px;
     margin-bottom: 12px;
     text-align: center;
     line-height: 1;
+    font-weight: lighter;
 }
 
 .title__third{
@@ -468,7 +495,7 @@ p{
     border-color: #332D30;
     bottom: 32px;
     right: 40px;
-    border-width: 3px;
+    border-width: 2px;
 }
 
 
@@ -486,8 +513,10 @@ PROJECTS
 
 .section__title{
     text-align: center;
-    font-size: 40px;
+    font-size:48px;
     margin-bottom: 60px;
+    font-weight: lighter;
+
 }
 
 .project__img{
