@@ -934,6 +934,7 @@ MEDIA
     .competitive__website{
         width: 300px;
         margin: 0px;
+        padding-top: none;
     }
 
     .interview__Description{
@@ -990,6 +991,10 @@ MEDIA
 
     #bpBtn{
         display: none;
+    }
+
+    .iterations__img{
+        width: 200px;
     }
 }
 
