@@ -9,6 +9,17 @@ h4{
  
 }
 
+.biolens{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding-top: 20px;
+}
+
+.click__Project{
+    text-decoration: none;
+}
+
 .treejack__img{
     width: 450px;
 }
@@ -48,6 +59,12 @@ h4{
 }
 
 .persona__Wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.treejack__img--wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,9 +228,9 @@ li{
     font-size: 32px ;
     border-radius:50% ;
     position: fixed; 
-    bottom: 32px; 
+    bottom: 90px; 
     border-style: solid;
-    border-color: #332D30;
+    border-color: #FF69B4;
     left: 40px; 
     z-index: 99; 
     background-color:#F5F1F1 ; 
@@ -228,8 +245,7 @@ li{
   }
   
   #bpBtn:hover {
-    transform: scale(1.1);
-
+    transform: scale(1.1);  
   } 
 
 #myBtn {
@@ -238,7 +254,7 @@ li{
     font-size: 32px ;
     border-radius:50% ;
     position: fixed; 
-    bottom: 32px; 
+    bottom: 90px; 
     border-style: solid;
     border-color: #332D30;
     left: 40px; 
@@ -252,6 +268,7 @@ li{
   
   #myBtn:hover {
     transform: scale(1.1);
+    border-color: #FF69B4;
 
   } 
 
@@ -543,7 +560,7 @@ p{
     color: #332D30;
     position: absolute;
     border-color: #332D30;
-    bottom: 32px;
+    bottom: 90px;
     right: 40px;
     border-width: 2px;
 }
@@ -855,7 +872,98 @@ MEDIA
 
 */
 
-/* Small phones, tablets , large smart phones  */
+/* IPAD PRO  */
+@media (max-width: 1024px) {
+    /* .header__img{
+        width: 320px;
+        height: 120px;
+    } */
+
+    .heading__box{
+        width: 720px;
+        height: 200px;
+        box-shadow: 0 5px 15px 0px;
+    }
+
+    #bpBtn{
+        display: none;
+    }
+
+    .casestudy__List--Item{
+        padding-left:60px ;
+        padding-right: 60px;
+    }
+
+    .treejack__img--wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* IPAD AIR  */
+@media (max-width: 820px) {
+    #bpBtn{
+        display: none;
+    }
+
+
+    .heading__box{
+        width: 620px;
+        height: 180px;
+        box-shadow: 0 5px 15px 0px;
+    }
+
+    .biolens{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .biolens__img{
+        width: 320px;
+        
+    }
+
+    .interview__img{
+        width: 320px;
+        height: 180px;
+       
+    }
+
+    .competitive__website{
+        width: 300px;
+        margin: 0px;
+    }
+
+    .interview__Description{
+        width: 300px;
+    }
+
+    .heading__Title{
+        margin-left: 65px;
+        margin-right: 65px;
+        text-align: center;
+    }
+
+    
+
+    .competitive__img{
+        width: 200px;
+        height: 100px;
+       
+    }
+
+    .iterations__img{
+        width: 240px;
+    }
+
+    .casestudy__List--Item{
+        padding-bottom: 32px;
+    }
+}
+
+/* IPAD MINI */
 @media (max-width: 768px) {
     .title {
         font-size: 80px;
@@ -879,14 +987,16 @@ MEDIA
         width: 100%;
 
     }
+
+    #bpBtn{
+        display: none;
+    }
 }
 
 
 /* Small phones */
 
 @media(max-width: 480px){
-
-   
 
     #personal-logo{
         width: 180px;
@@ -905,13 +1015,11 @@ MEDIA
         font-size: 18px;
     }
 
-    .nav__link:first-child{
-        display: none;
-    }
 
     .nav__link--list{
         display: none;
     }
+
 
     .shape--8{
         display: none;
@@ -1147,6 +1255,8 @@ MEDIA
     }
 
 
+
+
 }
 
 
@@ -1204,6 +1314,11 @@ footer{
 .footer__social--link{
     color: #332D30;
 }
+
+.mail__btn:hover{
+    border-color: #FF69B4;
+}
+
 
 
 
