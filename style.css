@@ -898,8 +898,24 @@ MEDIA
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-top: 10px;
     }
+
+    #myBtn{
+        display: none;
+    }
+
+    .competitive__img{
+        width: 280px;
+        height: 160px;
+    }
+
+    .iterations__img{
+        width: 280px;
+    }
+
 }
+
 
 /* IPAD AIR  */
 @media (max-width: 820px) {
@@ -952,16 +968,31 @@ MEDIA
     .competitive__img{
         width: 200px;
         height: 100px;
+        
        
     }
 
     .iterations__img{
-        width: 240px;
+        width: 200px;
     }
 
     .casestudy__List--Item{
         padding-bottom: 32px;
     }
+
+    #myBtn{
+        display: none;
+    }
+
+    .finalDesign1__img{
+        width: 300px;
+    }
+
+    .finalDesign2__img{
+
+    }
+
+
 }
 
 /* IPAD MINI */
@@ -993,8 +1024,18 @@ MEDIA
         display: none;
     }
 
+    #myBtn{
+        display: none;
+    }
+
     .iterations__img{
         width: 200px;
+    }
+
+    .competitive{
+        display: flex; 
+        justify-content: center;
+        /* align-items: center; */
     }
 }
 
