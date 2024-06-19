@@ -1090,6 +1090,27 @@ MEDIA
         font-size: 32px;
     }
 
+    .project__description{
+        left: 0;
+        padding: 10;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .project__description--title{
+        font: 10px;
+        font-weight: lighter;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .project__description--para{
+        display: none;
+    }
+
 
 
 }
