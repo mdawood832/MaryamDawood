@@ -914,6 +914,10 @@ MEDIA
         width: 280px;
     }
 
+    .project__wrapper{
+        width: 700px;
+    }
+
 }
 
 
@@ -992,6 +996,10 @@ MEDIA
 
     }
 
+    #myBtn{
+        display: none;
+    }
+
 
 }
 
@@ -1036,6 +1044,11 @@ MEDIA
         display: flex; 
         justify-content: center;
         /* align-items: center; */
+    }
+
+    .project__wrapper{
+        width: 600px;
+        height: 350px;
     }
 }
 
