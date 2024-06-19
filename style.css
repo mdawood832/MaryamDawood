@@ -866,6 +866,208 @@ input:focus, textarea:focus{
 
 
 
+/* NO COLOR WHEN HOVER OVER LINKS */
+
+.clickContrast{
+    cursor: pointer;
+    transition: all 30ms ease;
+    
+}
+
+.clickContrast:hover{
+    transform: scale(1.1);
+    
+}
+
+.clickContrast:active{
+    transform: scale(0.8);
+}
+
+
+/* FOOTER NEW */
+
+.footer__row{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 0 ;
+}
+
+
+footer{
+    background-color: #F5F1F1;
+    border-top: 2px solid var(--off-black, #332D30);
+}
+
+
+.footer__social--list{
+    width: 100%;
+    max-width: 400px;
+    display: flex; 
+    justify-content: space-around;
+    margin-bottom: 15px;
+
+}
+
+.footer__social--link:hover{
+    color: #FF69B4;
+}
+
+
+.footer__social--link{
+    color: #332D30;
+}
+
+.mail__btn:hover{
+    border-color: #FF69B4;
+}
+
+
+/* ABOUT PAGE */
+
+.about__Me--Title{
+    font-size: 48px;
+    margin-bottom: 12px;
+    line-height: 1;
+    font-weight: lighter;
+}
+
+
+.highlights__img{
+    width: 240px;
+    height: 240px;
+    border-radius: 25px;
+    border-color: #332D30;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.highlights__wrapper{
+    text-align: center;
+    padding: 20px;
+}
+
+.highlights{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.highlights__caption{
+    padding-top: 20px;
+}
+
+.highlights__title{
+    font-weight: lighter;
+}
+
+.about__me--Wrapper{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-self: center;
+    justify-content: space-between;
+    
+}
+
+.about__me--section{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    
+}
+
+.travel__img{
+    width: 180px;
+    height: 280px;
+    border-radius: 25px;
+    border-color: #332D30;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.books__img{
+    width: 220px;
+    height: 280px;
+    border-radius: 25px;
+    border-color: #332D30;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.about__me--link{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.about__me--link:hover{
+    color:#FF69B4;
+}
+
+.about__me--subtitle{
+    font-size: 32px;
+    padding-bottom: 16px;
+    color: #FF69B4;
+   
+}
+
+.about__me--answer{
+    font-size: 24px;
+    padding: 10px;
+    display: flex;
+    align-items: start;
+}
+
+.about__me--a{
+    text-decoration: none;
+    color: #332D30;
+}
+
+.astro__logo{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+}
+
+.astro{
+    font-size: 24px;
+    padding: 10px;
+}
+
+.astro__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+
+.signs{
+    padding-left: 10px;
+}
+
+.about__me--quote{
+    width: 200px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+#bpBtn{
+    border-color: #FF69B4;
+}
+
+
+
+
+
+
+
 /* 
 
 MEDIA 
@@ -917,6 +1119,21 @@ MEDIA
 
     .project__wrapper{
         width: 700px;
+    }
+
+    .highlights__img{
+        width: 170px;
+        height: 150px;
+    }
+
+    .books__img{
+        width: 180px;
+        height: 240px;
+    }
+
+    .travel__img{
+        width: 140px;
+        height: 200px;
     }
 
 }
@@ -999,6 +1216,21 @@ MEDIA
 
     #myBtn{
         display: none;
+    }
+
+    .highlights__img{
+        width: 140px;
+        height: 130px;
+    }
+
+    .books__img{
+        width: 140px;
+        height: 200px;
+    }
+
+    .travel__img{
+        width: 100px;
+        height: 150px;
     }
 
 
@@ -1114,12 +1346,6 @@ MEDIA
 
 
 }
-
-
-
-
-
-
 
 
 
@@ -1387,208 +1613,6 @@ MEDIA
 
 
 }
-
-
-
-/* NO COLOR WHEN HOVER OVER LINKS */
-
-.clickContrast{
-    cursor: pointer;
-    transition: all 30ms ease;
-    
-}
-
-.clickContrast:hover{
-    transform: scale(1.1);
-    
-}
-
-.clickContrast:active{
-    transform: scale(0.8);
-}
-
-
-/* FOOTER NEW */
-
-.footer__row{
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1% 0 ;
-}
-
-
-footer{
-    background-color: #F5F1F1;
-    border-top: 2px solid var(--off-black, #332D30);
-}
-
-
-.footer__social--list{
-    width: 100%;
-    max-width: 400px;
-    display: flex; 
-    justify-content: space-around;
-    margin-bottom: 15px;
-
-}
-
-.footer__social--link:hover{
-    color: #FF69B4;
-}
-
-
-.footer__social--link{
-    color: #332D30;
-}
-
-.mail__btn:hover{
-    border-color: #FF69B4;
-}
-
-
-/* ABOUT PAGE */
-
-.about__Me--Title{
-    font-size: 48px;
-    margin-bottom: 12px;
-    line-height: 1;
-    font-weight: lighter;
-}
-
-
-.highlights__img{
-    width: 240px;
-    height: 240px;
-    border-radius: 25px;
-    border-color: #332D30;
-    border-style: solid;
-    border-width: 2px;
-}
-
-.highlights__wrapper{
-    text-align: center;
-    padding: 20px;
-}
-
-.highlights{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.highlights__caption{
-    padding-top: 20px;
-}
-
-.highlights__title{
-    font-weight: lighter;
-}
-
-.about__me--Wrapper{
-    display: flex;
-    flex-direction: row;
-    /* justify-content: center; */
-    align-self: center;
-    justify-content: space-between;
-    
-}
-
-.about__me--section{
-    display: flex;
-    align-items: start;
-    flex-direction: column;
-    
-}
-
-.travel__img{
-    width: 180px;
-    height: 280px;
-    border-radius: 25px;
-    border-color: #332D30;
-    border-style: solid;
-    border-width: 2px;
-}
-
-.books__img{
-    width: 220px;
-    height: 280px;
-    border-radius: 25px;
-    border-color: #332D30;
-    border-style: solid;
-    border-width: 2px;
-}
-
-.about__me--link{
-    font-size: 24px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-
-.about__me--link:hover{
-    color:#FF69B4;
-}
-
-.about__me--subtitle{
-    font-size: 32px;
-    padding-bottom: 16px;
-    color: #FF69B4;
-   
-}
-
-.about__me--answer{
-    font-size: 24px;
-    padding: 10px;
-    display: flex;
-    align-items: start;
-}
-
-.about__me--a{
-    text-decoration: none;
-    color: #332D30;
-}
-
-.astro__logo{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    
-}
-
-.astro{
-    font-size: 24px;
-    padding: 10px;
-}
-
-.astro__wrapper{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: start;
-}
-
-.signs{
-    padding-left: 10px;
-}
-
-.about__me--quote{
-    width: 200px;
-    font-size: 24px;
-    text-align: center;
-    line-height: 1.2;
-}
-
-#bpBtn{
-    border-color: #FF69B4;
-}
-
-
-
-
 
 
 
