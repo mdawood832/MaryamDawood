@@ -1458,22 +1458,27 @@ MEDIA
         display: none;
     }
 
-    .project__description{
+    /* .project__description{
         left: 0;
         padding: 0;
         width: 100%;
         text-align: center;
-    }
+    } */
 
 
     .project__wrapper{
-        width: 400px;
-        height: 300px;
+        width: 200px;
+        height: 120px;
+     
+        
+    }
+
+    .homepage__line{
+        display: none;
     }
 
 
     .project__description--title{
-        font: 10px;
         font-weight: lighter;
         padding-bottom: 10px;
         padding-left: 10px;
@@ -1485,13 +1490,11 @@ MEDIA
         display: none;
     }
 
-    .project__wrapper{
-        width: 300px;
-        height: 180px;
-    }
+
 
     .project{
         margin-bottom: 40px;
+        padding-left: 40px;
     }
 
     .modal__half{
@@ -1681,6 +1684,23 @@ MEDIA
 
     .bp__row{
         padding: none;
+    }
+
+    .project__description--title{
+        font-size: 24px;
+        text-align: start;
+    }
+
+    .project__img{
+        width: 100%;
+    }
+
+    #bootcamp{
+        display: none;
+    }
+
+    #Diversions{
+        display: none;
     }
 
 
