@@ -1326,8 +1326,8 @@ MEDIA
     }
 
     .project__wrapper{
-        width: 400px;
-        height: 250px;
+        width: 280px;
+        height: 150px;
     }
 
     .mail__btn{
@@ -1364,7 +1364,7 @@ MEDIA
 
 
     .project__description--title{
-        font: 10px;
+        font-size: 24px;
         font-weight: lighter;
         padding-bottom: 10px;
         padding-left: 10px;
@@ -1417,6 +1417,14 @@ MEDIA
         width: 180px;
     }
 
+    #Diversions{
+        display: none;
+
+    }
+
+    #bootcamp{
+        display: none;
+    }
 
 
 }
