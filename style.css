@@ -1471,6 +1471,10 @@ MEDIA
 
 @media(max-width: 480px){
 
+    .project__wrapper:hover{
+        
+    }
+
     #personal-logo{
         width: 180px;
         height: 100px;
@@ -1538,7 +1542,7 @@ MEDIA
 
     .project{
         margin-bottom: 40px;
-        padding-left: 40px;
+        /* padding-left: 40px; */
     }
 
     .modal__half{
