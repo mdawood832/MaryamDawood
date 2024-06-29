@@ -196,12 +196,14 @@ h4{
 .homepage__line{
     border: 1.5px solid #332D30;
     margin-bottom: 40px;
+    border-radius: 99px;
 }
 
 
 .line{
     border: 1.5px solid #332D30;
     margin-bottom: 10px;
+    border-radius: 99px;
 }
 
 
@@ -1023,7 +1025,7 @@ footer{
 }
 
 .books__img{
-    width: 220px;
+    width: 200px;
     height: 280px;
     border-radius: 25px;
     border-color: #332D30;
