@@ -1648,6 +1648,8 @@ MEDIA
     .section__title{
      font-size: 32px;
      margin-bottom: 20px;
+     
+     
     }
 
     .header__img{
@@ -1732,7 +1734,7 @@ MEDIA
 
     .project__description--title{
         font-size: 24px;
-        text-align: start;
+        text-align: center;
     }
 
     .project__img{
@@ -1745,6 +1747,11 @@ MEDIA
 
     #Diversions{
         display: none;
+    }
+
+    .project__description--link{
+        justify-content: center;
+        align-items: center;
     }
 
 
