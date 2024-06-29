@@ -10,6 +10,55 @@ h4{
  
 }
 
+/* OVERVIEW CASE STUDY */
+
+.overview__wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.overview__para{
+ padding-right: 20px;
+ justify-content: start;
+ width: 50%;
+}
+
+.overview__details{
+    padding-left: 20px;
+    width: 50%;
+}
+
+.overview__line{
+    border-color: #332D30;
+    border-radius: 99px;
+}
+
+.overview__details--title{
+    font-size: 24px;
+    padding: 5px;
+    font-weight: bolder;
+    width: 120px;
+}
+
+.overview__answer{
+    font-size: 16px;
+    padding-left: 24px;
+}
+
+.overview__details--wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.overview__answer{
+    line-height: 1.2;
+}
+
+/*  */
+
 .social__link:hover{
     border-color: #FF69B4;
 }
@@ -1287,6 +1336,27 @@ MEDIA
         font-size: 16px;
     }
 
+    .interview__img{
+        width: 300px;
+        height: 180px;
+        
+    }
+
+    .interview__Description{
+        width: 300px;
+        padding: 20px;
+    }
+
+    .biolens__img{
+        width: 500px;
+        height: 200px;
+    }
+
+    .overview__answer{
+        font-size:12px;
+    }
+
+
 }
 
 /* IPAD MINI */
@@ -1352,6 +1422,23 @@ MEDIA
     }
 
   
+}
+
+/* Surface Duo Pro 7 */
+
+@media(max-width: 912px){
+    .interview__img{
+        width: 340px;
+        height: 220px;
+    }
+
+    .interview__Description{
+        width: 340px;
+    }
+
+    .overview__details--title{
+        padding: 8px;
+    }
 }
 
 
@@ -1429,10 +1516,7 @@ MEDIA
         width: 350px;
     }
 
-    .header__img{
-        width: 350px;
-        height: 140px;
-    }
+
 
     .heading__box{
         width: 350px;
@@ -1462,6 +1546,27 @@ MEDIA
         display: none;
     }
 
+    .overview__para{
+        width: 400px;
+    }
+
+
+    .overview__details{
+        display: none;
+        padding: 0;
+        width: 0%;
+     }
+
+     .header__img{
+        width: 400px;
+        height: 140px;
+     }
+
+     .heading__box{
+        width: 400px;
+        height: 140px;
+     }
+
 
 }
 
@@ -1471,9 +1576,7 @@ MEDIA
 
 @media(max-width: 480px){
 
-    .project__wrapper:hover{
-        
-    }
+ 
 
     #personal-logo{
         width: 180px;
@@ -1757,6 +1860,31 @@ MEDIA
         justify-content: center;
         align-items: center;
     }
+
+    .overview__wrapper{
+        display: flex; 
+        justify-content: center;
+        flex-direction: column;
+        
+
+    }
+
+    .overview__para{
+        text-align: center;
+        width: 200px;
+       
+    }
+
+    .overview__details{
+       display: none;
+       padding: 0;
+       width: 0%;
+    }
+
+  
+
+   
+
 
 
 
