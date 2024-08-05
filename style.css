@@ -4,6 +4,90 @@ body{
     font-weight: lighter;
 }
 
+.body__para{
+    line-height: 24px ;
+}
+
+/* research */
+
+.research__img{
+    width: 400px;
+    height: 400px;
+}
+
+.research__description{
+    width: 400px;
+    padding-left: 40px;
+    line-height: 26px;
+    font-size: 20px;
+    
+}
+
+.research__wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Problem statement */
+
+.problem__statement{
+    font-size: 20px;
+}
+
+.pain__points{
+    font-size: 20px;
+}
+
+.low__fidelity--prototypes{
+    width: 1000px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+}
+
+.low__fidelity--prototypes--wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.apple__watch--img{
+    width: 200px;
+    height: 450px;
+}
+
+
+
+
+/* VIDEOS */
+
+
+
+video{
+    width: 200px;
+    height: 450px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.video__row{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.video__wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.video__title{
+    font-weight: 600;
+}
+
 
 h4{
     font-weight: lighter;
@@ -25,7 +109,8 @@ h4{
 }
 
 .overview__para{
- padding-right: 20px;
+ 
+ margin-right: 10px;
  justify-content: start;
  width: 50%;
 }
@@ -98,6 +183,10 @@ h4{
 
 .design__System{
     width: 550px;
+}
+
+.user__flow{
+    width: 650px;
 }
 
 .design__System--wrapper{
