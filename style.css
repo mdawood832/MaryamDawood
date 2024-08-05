@@ -95,6 +95,30 @@ h4{
  
 }
 
+
+/* APPLE WATCH */
+
+.apple__watch--wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* PERSONAS */
+
+.persona__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.persona__img{
+    width: 550px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 /* OVERVIEW CASE STUDY */
 
 .overview__wrapper{
