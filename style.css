@@ -143,25 +143,31 @@ h4{
 
 /* COMPETITIVE ANALYSIS STUDY FIT */
 
-.competitve__container{
+.competitve__analysis--img{
+    width: 1000px;
+    height: 700px;
+}
+
+.analysis__wrapper{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-
 }
 
-.competitve__mockup--img{
-    width: 200px;
-    height: 400px;
-    
+/* GOALS */
 
+.goals__studyfit{
+    line-height: 28px;
+    font-size: 20px;
 }
 
-.competitive__wrapper--mockup{
-    padding: 80px;
-}
+.goals__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 
+}
 
 
 
