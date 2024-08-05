@@ -102,6 +102,17 @@ h4{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.apple__watch--titleWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.apple__watch--title{
+    font-size: 24px;
 }
 
 /* PERSONAS */
@@ -258,7 +269,8 @@ h4{
 }
 
 .design__System{
-    width: 550px;
+    width: 650px;
+    height: 450px;
 }
 
 .user__flow{
