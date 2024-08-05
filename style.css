@@ -119,6 +119,52 @@ h4{
     padding-right: 10px;
 }
 
+/* PROBLEM STATEMENT */
+.problem__wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mockups__img{
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 45px;
+}
+
+.problem__statement{
+    width: 500px;
+    padding: 10px;
+    margin: 20px;
+    line-height: 30px;
+}
+
+/* COMPETITIVE ANALYSIS STUDY FIT */
+
+.competitve__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.competitve__mockup--img{
+    width: 200px;
+    height: 400px;
+    
+
+}
+
+.competitive__wrapper--mockup{
+    padding: 80px;
+}
+
+
+
+
 /* OVERVIEW CASE STUDY */
 
 .overview__wrapper{
