@@ -8,6 +8,25 @@ body{
     line-height: 24px ;
 }
 
+/* project goals furni */
+.project__Goals--Furni{
+    
+    
+    
+    
+}
+
+.problem__statement--Furni{
+    width: 500px;
+    padding: 10px;
+    margin: 20px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+
+
+
 /* research */
 
 .research__img{
@@ -286,8 +305,8 @@ h4{
 }
 
 .design__System{
-    width: 650px;
-    height: 450px;
+    width: 550px;
+    height: 750px;
 }
 
 .user__flow{
