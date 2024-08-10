@@ -8,7 +8,14 @@ body{
     line-height: 24px ;
 }
 
+/* research furni */
 
+.furniture__img{
+    width: 400px;
+    height: 250px;
+    border-radius: 45px;
+    padding: 20px;
+}
 
 /* GRAD SECTION */
 
@@ -49,7 +56,7 @@ body{
     display: flex;
     justify-content: center;
     align-self: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .web__mockup--wrapper{
