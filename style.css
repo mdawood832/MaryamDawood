@@ -18,8 +18,8 @@ body{
 
 /* scroll effect */
 .scroll {
-    margin: 4px, 4px;
-    padding: 4px;
+    /* margin: 4px, 4px; */
+    /* padding: 4px; */
     width: 400px;
     height: 500px;
     overflow-x: hidden;
@@ -27,8 +27,24 @@ body{
     display: flex;
     justify-content: center; 
     position:absolute;
+    border-radius: 25px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #332D30;
     
     
+}
+
+.scroll-fix{
+    margin: 4px, 4px;
+    padding: 4px;
+    width: 400px;
+    height: 450px;
+    overflow-x: hidden;
+    overflow-y: auto;  
+    display: flex;
+    justify-content: center; 
+    position:absolute;
 }
 
 .parent__scroll{
@@ -39,6 +55,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+ 
     
 
 }
@@ -47,6 +64,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: left;
+
 }
 
 .final__design--furniImg{
