@@ -1,11 +1,14 @@
 # E-portfolio Link 
 <h1 target="_blank">https://maryamis.online/</h1>
 
-<br><br>
+## **How I created my Eportfolio**
 
+Project Title is a description of the project and its purpose.
 
-<h2>Duration: 2 months </h2>
-<h2>Tools: Figma, Visual Studio Code, HTML, CSS, JavaScript </h2>
+## **Overview**
+This took 2 months to create from design to code. 
+I used Figma to design, visual studio code to develop. I used HTML, CSS, and javascript. 
+The website is deployed through github pages!
 
 
 
