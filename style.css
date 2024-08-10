@@ -82,6 +82,7 @@ body{
 .explain_container{
     padding-top: 36px;
     width: 500px;
+    font-size: 20px;
 }
 
 
@@ -126,8 +127,24 @@ body{
 /* videos for furni */
 
 .web{
-    width: 450px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
+}
+
+.checkout__web{
+    width: 550px;
+    height: 400px;
+}
+
+.checkout__explanation{
+font-size: 20px;
+}
+
+.checkout__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .web__mockup--row{
