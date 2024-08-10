@@ -1,9 +1,7 @@
 # E-portfolio Link 
 <h1 target="_blank">https://maryamis.online/</h1>
 
-## **How I created my Eportfolio**
-
-Project Title is a description of the project and its purpose.
+<br><br>
 
 ## **Overview**
 This took 2 months to create from design to code. <br>
