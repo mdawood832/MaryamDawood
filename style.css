@@ -8,13 +8,67 @@ body{
     line-height: 24px ;
 }
 
-/* project goals furni */
-.project__Goals--Furni{
-    
-    
-    
-    
+
+
+/* GRAD SECTION */
+
+.grad_pic{
+    width: 250px;
+    height: 380px;
+    border-radius: 25px;
+    border-color: #332D30;
+    border-style: solid;
+    border-width: 2px;
+
 }
+
+.info__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.info__description{
+    line-height: 1.5;
+    font-size: 20px;
+    padding-right: 140px;
+}
+
+
+
+
+/* videos for furni */
+
+.web{
+    width: 450px;
+    height: 300px;
+}
+
+.web__mockup--row{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+.web__mockup--wrapper{
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: center;
+   width: 550px;
+   
+}
+
+.web__mockup--title{
+    font-weight: 600;
+}
+
+
+
+/* project goals furni */
+
 
 .problem__statement--Furni{
     width: 500px;
