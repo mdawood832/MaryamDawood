@@ -118,6 +118,10 @@ body{
 
 .pain__points{
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .low__fidelity--prototypes{
