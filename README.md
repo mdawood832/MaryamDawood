@@ -6,9 +6,9 @@
 Project Title is a description of the project and its purpose.
 
 ## **Overview**
-This took 2 months to create from design to code. 
-I used Figma to design, visual studio code to develop. I used HTML, CSS, and javascript. 
-The website is deployed through github pages!
+This took 2 months to create from design to code. <br>
+I used Figma to design, visual studio code to develop (HTML, CSS, and javascript). <br>
+The website is deployed through github pages! <br>
 
 
 
