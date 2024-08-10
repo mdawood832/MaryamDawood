@@ -452,6 +452,11 @@ h4{
     height: 750px;
 }
 
+.design__System--img{
+    width: 550px;
+    height: 450px;
+}
+
 .user__flow{
     width: 650px;
 }
