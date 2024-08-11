@@ -8,6 +8,83 @@ body{
     line-height: 24px ;
 }
 
+/* Captial Final Design */
+
+
+.web__scroll {
+    width: 800px;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;  
+    display: flex;
+    justify-content: center; 
+    position:absolute;
+    border-radius: 25px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #332D30;
+}
+
+.parent__scroll--web{
+    position: relative;
+    width: 250px;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.final__design--capitalWeb{
+    width: 800px;
+    height: 1680px;
+}
+
+.mobile__scroll {
+    width: 220px;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;  
+    display: flex;
+    justify-content: center; 
+    position:absolute;
+    border-radius: 25px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #332D30;
+}
+
+.parent__scroll--mobile{
+    position: relative;
+    width: 250px;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.final__design--capitalMobile{
+    width: 220px;
+    height: 2000px;
+}
+
+.capital__container{
+    margin-top: 40px;
+}
+
+.capital__final--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
 /* Furni Final Images */
 
 .final__design--furniImg{
