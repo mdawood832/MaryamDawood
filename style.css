@@ -9,7 +9,41 @@ body{
 }
 
 /* Captial Final Design */
+.iterations__container{
+    display: flex;
+    flex-direction: row;
+}
 
+.capital__iteration__img{
+    width: 320px;
+    height: 800px;
+}
+
+.iteration__scroll{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.scroll__for--iteration{
+    width: 320px;
+    height: 420px;
+    overflow-x: hidden;
+    overflow-y: auto;  
+    display: flex;
+    justify-content: center; 
+    position:absolute;
+    border-radius: 25px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #332D30;
+}
 
 .web__scroll {
     width: 800px;
