@@ -47,7 +47,7 @@ body{
 
 .scroll__for--iteration{
     width: 320px;
-    height: 420px;
+    height: 380px;
     overflow-x: hidden;
     overflow-y: auto;  
     display: flex;
