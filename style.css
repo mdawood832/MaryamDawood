@@ -20,6 +20,10 @@ body{
 .roadmap__gif{
     width: 1000px;
     height: 600px;
+    border-radius: 45px;
+    border-style: solid;
+    border-color: #332D30;
+    border-width: 2px;
 }
 
 
@@ -117,7 +121,9 @@ body{
 .info__description{
     line-height: 1.5;
     font-size: 20px;
-    padding-right: 140px;
+    /* padding-right: 140px; */
+    text-align: left;
+    width: 950px;
 }
 
 
