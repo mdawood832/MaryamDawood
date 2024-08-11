@@ -8,6 +8,14 @@ body{
     line-height: 24px ;
 }
 
+/* capital overview */
+
+.capital__overview{
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+
 /* Captial Final Design */
 .iterations__container{
     display: flex;
