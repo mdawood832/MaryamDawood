@@ -18,8 +18,6 @@ body{
 
 /* scroll effect */
 .scroll {
-    /* margin: 4px, 4px; */
-    /* padding: 4px; */
     width: 400px;
     height: 500px;
     overflow-x: hidden;
@@ -31,8 +29,6 @@ body{
     border-width: 4px;
     border-style: solid;
     border-color: #332D30;
-    
-    
 }
 
 .scroll-fix{
@@ -236,13 +232,7 @@ font-size: 20px;
     height: 450px;
 }
 
-
-
-
 /* VIDEOS */
-
-
-
 video{
     width: 200px;
     height: 450px;
@@ -869,8 +859,6 @@ NAVIGATION
 */
 
 
-
-
 #personal-logo{
     /* background-color: #332D30; */
     width: 240px;
@@ -879,14 +867,7 @@ NAVIGATION
      
 }
 
-/* .personal-logo__wrapper{
-    background-color: #332D30;
-    border-radius: 50px;
-    height: 80px;
-    
-    
-    
-} */
+
 
 nav{
     display: flex;
@@ -1016,7 +997,6 @@ p{
     border-radius: 50%;
     border-width: 1.2px;
     border-style: solid;
-    /* box-shadow: 0 1px 1px rgba(0,0,0,0.08), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.16), 0 8px 8px rgba(0,0,0,0.20); */
 }
 
 .mail__btn{
@@ -1061,26 +1041,15 @@ PROJECTS
     width: 100%;   
 }
 
-
-
-
-
 .project__wrapper{
-    /* position: relative; */
     border-radius: 10px;
-    /* box-shadow: 0 20px 80px 0px; */
     box-shadow: 0 10px 30px 0px;
     overflow: hidden;
     width: 500px;
     height: 280px;
-    /* width: 450px; 
-    height: 250px;  */
     display: flex;
     justify-content: center;
     transition: 1s ease;
-
-
-
 }
 
 .project__wrapper:hover{
@@ -1088,7 +1057,7 @@ PROJECTS
     -ms-transform: scale(1.1);
     transform: scale(1.1);
     transition: 0.3s ease;
-    }
+}
     
     
 
@@ -1106,15 +1075,6 @@ PROJECTS
     transition: 1s ease;
 }
 
-/* .project__wrapper:hover .project__description{
-    opacity: 1;
-    transform: translateY(-50%);
-} */
-
-/* .project__wrapper:hover .project__img{
-    transform: scale(1.07);
-    filter: blur(5PX);
-} */
 
 .project__description--title{
     font-size: 56px;
@@ -1141,19 +1101,7 @@ PROJECTS
 
 }
 
-/* .project__wrapper:hover .project__wrapper--bg{
-    opacity: 0.7;
-} */
 
-/* .project__wrapper--bg{
-    position: absolute;
-    top: 0;
-    left:0;
-    width: 100%;
-    height: 100%;
-    background-color: #332D30;
-    opacity: 0;
-} */
 
 .project__description--link{
     color: #F5F1F1;
@@ -1173,13 +1121,11 @@ FOOTER
     border-top: 2px solid var(--off-black, #332D30);
     background-color: #F5F1F1;
     padding: 2% 0;
-    /* left: 0; */
     bottom: 0;
     width: 100%;
     position: relative; 
     bottom: 0; 
     left: 0; 
-    /* z-index: 100; */
 }
 
 .footer__row{
@@ -1210,8 +1156,6 @@ FOOTER
     position: relative;
     margin-bottom: 20px;
 }
-
-
 
 
 /* 
@@ -1317,8 +1261,6 @@ label{
     justify-content: center;
 }
 
-
-
 .form__submit:hover{
     border-color: #F5F1F1;
     background-color: transparent;
@@ -1338,10 +1280,6 @@ input:focus, textarea:focus{
     border-color:#FF69B4 ;
 }
 
-
-
-
-
 .modal__exit{
     position: absolute;
     top: 30px;
@@ -1350,11 +1288,6 @@ input:focus, textarea:focus{
     font-size: 36px;
     z-index: 100;
 }
-
-
-
-
-
 
 /* NO COLOR WHEN HOVER OVER LINKS */
 
@@ -1457,10 +1390,8 @@ footer{
 .about__me--Wrapper{
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     align-self: center;
     justify-content: space-between;
-    
 }
 
 .about__me--section{
@@ -1553,8 +1484,6 @@ footer{
 }
 
 
-
-
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -1578,11 +1507,6 @@ MEDIA
 
 /* IPAD PRO  */
 @media (max-width: 1024px) {
-    /* .header__img{
-        width: 320px;
-        height: 120px;
-    } */
-
 
     .heading__box{
         width: 720px;
@@ -2297,15 +2221,6 @@ MEDIA
        padding: 0;
        width: 0%;
     }
-
-  
-
-   
-
-
-
-
-
 }
 
 
