@@ -18,8 +18,32 @@ body{
 .brand__mission--img{
     width: 450px;
     height: 250px;
+    
 }
 
+/* promo site image */
+.promo__img{
+    width: 600px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.promo__img--wrapper{
+    border-radius: 25px;
+}
+
+.promo__Wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.promo__button{
+    font-size: 24px;
+    text-decoration: underline;
+    color: #332D30;
+}
 
 
 /* Captial Final Design */
