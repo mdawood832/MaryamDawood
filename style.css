@@ -363,10 +363,26 @@ font-size: 20px;
 .research__img{
     width: 400px;
     height: 400px;
+    border-radius: 25px;
+}
+
+.research__img--wrapper{
+    border-radius: 25px;
+}
+
+.white--research__img{
+    width: 400px;
+    height: 300px;
+    border-radius: 25px;
+    margin: 40px;
+}
+
+.white__research--tag{
+    border-radius: 25px;
 }
 
 .research__description{
-    width: 400px;
+    width: 500px;
     padding-left: 40px;
     line-height: 26px;
     font-size: 20px;
@@ -378,6 +394,7 @@ font-size: 20px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+   
 }
 
 /* Problem statement */
