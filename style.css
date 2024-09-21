@@ -374,7 +374,7 @@ font-size: 20px;
     width: 400px;
     height: 300px;
     border-radius: 25px;
-    margin: 40px;
+    margin: 60px;
 }
 
 .white__research--tag{
@@ -386,6 +386,7 @@ font-size: 20px;
     padding-left: 40px;
     line-height: 26px;
     font-size: 20px;
+    margin-right: 40px;
     
 }
 
