@@ -30,12 +30,13 @@ body{
 
 .promo__img--wrapper{
     border-radius: 25px;
+    padding-left: 40px;
 }
 
 .promo__Wrapper{
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
@@ -52,7 +53,7 @@ body{
     transition: box-shadow 0.3s ease; 
     color: #F5F1F1;
     font-family: "DM Sans", sans-serif;
-    font-weight: 200;
+    font-weight: 400;
 
 }
 
