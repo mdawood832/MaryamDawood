@@ -8,6 +8,18 @@ body{
     line-height: 24px ;
 }
 
+
+/* logo of my name */
+
+.gif__maryam{
+    width: 250px;
+    height: 180px;
+}
+
+.logo__wrapper{
+    margin-top: 20px;
+}
+
 /* capital overview */
 
 .capital__overview{
@@ -1127,6 +1139,24 @@ p{
 
 /*  FOOTER */
 
+.copyright__footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright__info{
+    width: 550px;
+    color: #FF0D86;
+}
+
 .footer{
     height: 86px;
     border-top: 2px solid var(--off-black, #332D30);
@@ -1213,7 +1243,7 @@ footer{
 }
 
 .footer__social--link:hover{
-    color: #FF69B4;
+    color: #FF0D86;
 }
 
 
