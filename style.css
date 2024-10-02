@@ -1349,7 +1349,7 @@ footer{
 
 .about__me--section{
     display: flex;
-    align-items: start;
+    align-items: center;
     flex-direction: column;
     
 }
@@ -1386,6 +1386,9 @@ footer{
     font-size: 32px;
     padding-bottom: 16px;
     color: #FF69B4;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
    
 }
 
