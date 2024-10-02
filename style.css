@@ -86,6 +86,34 @@ body{
     font-size: 20px;
 }
 
+/* discover the magic button */
+
+.discover__button--wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+
+.discover__button{
+    font-size: 24px;
+    width: 180px;
+    height: 50px;
+    background: #FF0D86;
+    border-radius: 55px;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
 
 
 /* Captial Final Design */
@@ -568,6 +596,9 @@ h4{
 
 .overview__title{
     font-size: 24px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .overview__para{
@@ -590,8 +621,17 @@ h4{
 .overview__details--title{
     font-size: 24px;
     padding: 5px;
-    font-weight: bolder;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
     width: 120px;
+}
+
+h2{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
 }
 
 .overview__answer{
@@ -938,9 +978,12 @@ nav{
 
 .nav__link--anchor{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 24px;
     color: #332D30;
-    font-family: 'Zen Antique' , 'san-serif';
+    /* font-family: 'Zen Antique' , 'san-serif'; */
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 li{
@@ -1067,9 +1110,12 @@ p{
 
 .section__title{
     text-align: left;
-    font-size:32px;
-    font-weight: lighter;
+    font-size:36px;
     padding-bottom: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
 
 }
 
