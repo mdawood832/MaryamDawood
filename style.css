@@ -57,8 +57,21 @@ body{
 
 }
 
+.promo__button--wrapper{
+    margin-top: 40px;
+}
+
 .promo__button:hover { 
     box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3); 
+}
+
+.promo__description--wrapper{
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.promo__description{
+    font-size: 20px;
 }
 
 
