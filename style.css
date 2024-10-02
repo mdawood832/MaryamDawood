@@ -652,7 +652,7 @@ h4{
 }
 
 .logo__Hover:hover{
-   color: #FF69B4;
+   color: #FF0D86;
 }
 
 .user__Persona{
@@ -791,7 +791,8 @@ h4{
 
 
 .grad{
-    background:radial-gradient(#23a6d5,#F5B8D4);
+   
+    background:#FFFFFF;
 }
 
 .logo{
@@ -868,11 +869,11 @@ button{
 }
 
 .link__hover-effect--white:after{
-    background-color: #FF69B4;
+    background-color: #FF0D86;
 }
 
 .link__hover-effect--black:after{
-    background-color: #FF69B4;
+    background-color: #FF0D86;
 }
 
 .link__hover-effect:hover:after{
@@ -975,7 +976,7 @@ li{
 }
 
 .title__second{
-    color: #F5F1F1;
+    color: #FF0D86;
     font-size: 80px;
     margin-bottom: 12px;
     text-align: center;
@@ -1102,7 +1103,7 @@ p{
 
 .project__description--sub-title{
     margin: 8px 0px;
-    color: #F5F1F1;
+    color: #FF0D86;
 }
 
 
@@ -1118,7 +1119,7 @@ p{
 }
 
 .project__description--link{
-    color: #F5F1F1;
+    color: #FF0D86;
     font-size: 20px;
     margin-right: 16px ;
     text-decoration: none;
