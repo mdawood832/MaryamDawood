@@ -1024,7 +1024,7 @@ p{
 
 .social__link{
     text-decoration: none;
-    background-color: #F5F1F1;
+    background-color: #FFFFFF;
     color: #332D30;
     padding: 6px;
     width: 52px;
@@ -1160,7 +1160,7 @@ p{
 .footer{
     height: 86px;
     border-top: 2px solid var(--off-black, #332D30);
-    background-color: #F5F1F1;
+    background-color: #FFFFFF;
     padding: 2% 0;
     bottom: 0;
     width: 100%;
