@@ -443,6 +443,8 @@ font-size: 20px;
     height: 450px;
 }
 
+
+
 /* VIDEOS */
 video{
     width: 200px;
@@ -498,6 +500,11 @@ h4{
 
 .apple__watch--description{
    margin-right: 100px;
+}
+
+.apple__watch--gif{
+    width: 200px;
+    padding-left: 20px;
 }
 
 /* PERSONAS */
