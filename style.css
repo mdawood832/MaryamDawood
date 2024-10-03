@@ -1189,6 +1189,8 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: underline;
+    color: #332D30;
 }
 
 .footer__info{
