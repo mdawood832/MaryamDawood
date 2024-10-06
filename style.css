@@ -591,6 +591,7 @@ h4{
     display: flex;
     align-items: center;
     flex-direction: row;
+    align-items:flex-start;
 
 }
 
