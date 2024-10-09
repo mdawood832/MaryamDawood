@@ -1,9 +1,12 @@
 ## **Eportfolio Link**
 https://maryamis.online/
 
+## **Tools**
+Visual Studio Code, Figma, Mural, Git, Github, HTML, CSS, JavaScript <br>
+
+
 ## **Overview**
 - This took 2 months to create from design to code. <br>
-- I used Figma to design, visual studio code to develop (HTML, CSS, and javascript). <br>
 - The website is deployed through github pages! <br>
 
 ## **Figma**
