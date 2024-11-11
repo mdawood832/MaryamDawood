@@ -16,6 +16,11 @@ body{
     padding: 20px;
 }
 
+.header__promo{
+    font-size: 48px;
+    padding-bottom: 24px;
+}
+
 
 /* logo of my name */
 
@@ -399,8 +404,6 @@ body{
     padding-left: 40px;
     line-height: 26px;
     font-size: 20px;
-    margin-right: 40px;
-    
 }
 
 .research__wrapper{
@@ -408,7 +411,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-   
+
 }
 
 /* Problem statement */
