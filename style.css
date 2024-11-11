@@ -438,8 +438,8 @@ body{
 
 /* VIDEOS */
 video{
-    width: 200px;
-    height: 450px;
+    width: 300px;
+    height: 550px;
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -448,13 +448,22 @@ video{
     display: flex;
     justify-content: center;
     align-self: center;
+    flex-direction: column;
 }
 
 .video__wrapper{
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+
+.video__description{
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
 }
 
 .video__title{
