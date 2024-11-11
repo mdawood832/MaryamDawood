@@ -9,6 +9,14 @@ body{
 }
 
 
+
+.header__above--line{
+    font-size: 48px;
+    text-align: center;
+    padding: 20px;
+}
+
+
 /* logo of my name */
 
 .gif__maryam{
@@ -407,6 +415,7 @@ body{
 
 .problem__statement{
     font-size: 20px;
+    text-align: center;
 }
 
 .pain__points{
@@ -467,7 +476,6 @@ video{
 }
 
 .video__title{
-    font-weight: 600;
     font-size: 32px;
 }
 
@@ -745,7 +753,9 @@ h2{
 }
 
 .casestudy__List--Item{
-    padding-bottom: 48px;
+    margin-top: 48px;
+    margin-bottom: 56px;
+    padding-bottom: 56px;
 }
 
 .heading__Title{
