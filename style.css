@@ -456,8 +456,8 @@ video{
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    margin-top: 56px;
-    margin-bottom: 56px;
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
 
 .video__description{
@@ -468,6 +468,7 @@ video{
 
 .video__title{
     font-weight: 600;
+    font-size: 32px;
 }
 
 
