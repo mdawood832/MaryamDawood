@@ -482,6 +482,10 @@ video{
     font-size: 32px;
 }
 
+.video__para{
+    font-size: 20px;
+}
+
 
 h4{
     font-weight: lighter;
