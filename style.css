@@ -1214,6 +1214,13 @@ p{
     max-width: 550px;
 }
 
+
+.project__description__software{
+    padding-right: 110px;
+    color: #332D30;
+    max-width: 550px;
+}
+
 .project__description--para{
     text-align: left;
     margin: 16px 0px;
@@ -1523,7 +1530,9 @@ footer{
     .project__wrapper{
         width: 500px;
         margin-left: 20px;
+
     }
+
 
     .highlights__img{
         width: 170px;
@@ -1937,6 +1946,10 @@ footer{
     .project{
         margin-bottom: 40px;
         /* padding-left: 40px; */
+    }
+
+    .project__software{
+
     }
 
     .modal__half{
