@@ -86,7 +86,8 @@ padding-right: 48px;
     padding-right: 20px;
     transition: box-shadow 0.3s ease; 
     color: #F5F1F1;
-    font-family: "DM Sans", sans-serif;
+    /* font-family: "DM Sans", sans-serif; */
+    font-family: 'Hoefler Text', serif;
     font-weight: 400;
 
 }
@@ -130,7 +131,7 @@ padding-right: 48px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: 'Hoefler Text', serif;
     font-weight: 400;
     font-style: normal;
 
@@ -631,7 +632,7 @@ h4{
 
 .overview__title{
     font-size: 24px;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: 'Hoefler Text', serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -656,14 +657,16 @@ h4{
 .overview__details--title{
     font-size: 24px;
     padding: 5px;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: 'Hoefler Text', serif;
   font-weight: 400;
   font-style: normal;
     width: 120px;
 }
 
 h2{
-    font-family: "Bebas Neue", sans-serif;
+
+    font-family: 'Hoefler Text', serif;
+
   font-weight: 400;
   font-style: normal;
   font-size: 32px;
@@ -887,7 +890,7 @@ h2{
 .logo{
     font-size: 32px;
     color: #332D30;
-    font-family: 'Zen Antique' , 'san-serif';
+    font-family: 'Hoefler Text', serif;
 }
 
 html {
@@ -1010,15 +1013,15 @@ nav{
 
 .nav__link{
     margin: 0 12px;
-    font-family: 'Zen Antique' , 'san-serif';
+    font-family: 'Hoefler Text', serif;
+
 }
 
 .nav__link--anchor{
     text-decoration: none;
     font-size: 24px;
     color: #332D30;
-    /* font-family: 'Zen Antique' , 'san-serif'; */
-    font-family: "Bebas Neue", sans-serif;
+    font-family: 'Hoefler Text', serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -1150,7 +1153,7 @@ p{
     text-align: left;
     font-size:36px;
     padding-bottom: 10px;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: 'Hoefler Text', serif;
     font-weight: 400;
     font-style: normal;
   
@@ -1426,7 +1429,7 @@ footer{
     font-size: 32px;
     padding-bottom: 16px;
     color: #FF69B4;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: 'Hoefler Text', serif;
   font-weight: 400;
   font-style: normal;
    
