@@ -118,6 +118,7 @@ padding-right: 48px;
     padding-top: 20px;
     padding-bottom: 20px;
     align-items: center;
+    
 }
 
 
@@ -1104,6 +1105,7 @@ p{
     margin-top: 16px;
     display: flex;
     justify-content: center;
+    align-items: center;
 
 }
 
