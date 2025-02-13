@@ -2,7 +2,7 @@
 https://maryamis.online/
 
 ## **Tools**
-Visual Studio Code, Figma, Mural, Git, Github, HTML, CSS, JavaScript <br>
+Visual Studio Code, Figma, Mural, Git, Github, HTML, CSS <br>
 
 
 ## **Overview**
